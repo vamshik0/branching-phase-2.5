@@ -11,6 +11,12 @@
     "updatedAt": "2026-06-01T06:19:46.264Z",
     "contentHash": "8215883fdec700d581ac7fac768f2ca5e85b0f567ae7ad6035a3974ae076ff9f"
   },
+  "12cf5e41-4c23-4ab4-86aa-5e9863a9683e": {
+    "name": "test",
+    "kind": "postgresql",
+    "updatedAt": "2026-06-01T06:27:39.305Z",
+    "contentHash": "b8974005f68253e0f4cd97ef9cba1d4bc65e3b0ecd9c7c6d991a13c0fde6793f"
+  },
   "15367785-ba2f-4f6a-aa5a-2d16fd21350d": {
     "name": "S3 Upload Config - ENV ",
     "kind": "s3",
@@ -65,5 +71,5 @@
     "updatedAt": "2026-06-01T06:19:46.265Z",
     "contentHash": "60799dfcb5426cfcc87a419af54854940b4d66e9f99d756c48dfe958db81f781"
   },
-  "lastUpdatedAt": "2026-06-01T06:19:46.265Z"
+  "lastUpdatedAt": "2026-06-01T06:27:39.305Z"
 }
