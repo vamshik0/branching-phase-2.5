@@ -1,0 +1,116 @@
+{
+  "id": "054f0739-3b37-4f01-a317-996088f42e66",
+  "name": "Mock Swigconfig_2",
+  "kind": "grpcv2",
+  "type": "default",
+  "options": {
+    "development": {
+      "url": "swigconfig.env004.in-west",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "client-id",
+          "retool"
+        ],
+        [
+          "cp-env",
+          "UAT"
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "import_protos_from_filesystem",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [
+        "cpgateway.config.v1.ConfigParamAPI",
+        "cpgateway.config.v1.ConfigParamValueAPI",
+        "cpgateway.config.v1.ApprovalAPI",
+        "cpgateway.config.v1.ConfigAPI"
+      ],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "production": {
+      "url": "",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "staging": {
+      "url": "",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": false,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    }
+  }
+}
