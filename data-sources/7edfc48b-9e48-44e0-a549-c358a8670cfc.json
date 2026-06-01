@@ -1,0 +1,29 @@
+{
+  "id": "7edfc48b-9e48-44e0-a549-c358a8670cfc",
+  "name": "local-redis",
+  "kind": "redis",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    },
+    "production": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    }
+  }
+}

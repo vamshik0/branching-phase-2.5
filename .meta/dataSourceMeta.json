@@ -1,15 +1,9 @@
 {
-  "3b891bba-53b7-45c8-8264-357cfcf3f61f": {
-    "name": "lost-postgresql",
-    "kind": "postgresql",
-    "updatedAt": "2026-06-01T09:48:27.476Z",
-    "contentHash": "6c7e4b0c1627b615eeef7661921e0fe8622e5a78b02810fee66419fb81824410"
-  },
-  "8995fa61-3d7e-429d-9925-7bd89313f572": {
-    "name": "lost-snowflake",
-    "kind": "snowflake",
-    "updatedAt": "2026-06-01T09:51:37.056Z",
-    "contentHash": "cf629523eec3c38a13ea31cdf5049bb17db850ef921a8b5890f3818f9c5bfb59"
+  "7edfc48b-9e48-44e0-a549-c358a8670cfc": {
+    "name": "local-redis",
+    "kind": "redis",
+    "updatedAt": "2026-06-01T09:56:09.424Z",
+    "contentHash": "9d51fc9439bbfe36a9aaf138635a559b2ae80cfbe40c0c98c243e808b9f16208"
   },
   "9e583369-9b60-4907-b46e-21c41f21a18d": {
     "name": "stale-restapi",
@@ -17,5 +11,5 @@
     "updatedAt": "2026-06-01T06:35:18.752Z",
     "contentHash": "ac6fe510b30d85e274652d6b30239520b683d33286ee2fcb53b1cfbf41ba2889"
   },
-  "lastUpdatedAt": "2026-06-01T09:51:37.056Z"
+  "lastUpdatedAt": "2026-06-01T09:56:09.424Z"
 }
