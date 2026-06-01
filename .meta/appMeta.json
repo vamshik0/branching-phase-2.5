@@ -14,5 +14,9 @@
   "b02f3a79-972d-48b4-821e-b4751d89c5ab": {
     "appPath": "apps/common-app-3",
     "updatedAt": "2026-06-01T07:13:23.159Z"
+  },
+  "762df1a4-ed63-4bff-b241-154b3e9280e5": {
+    "appPath": "apps/tj-app-1",
+    "updatedAt": "2026-06-01T07:31:33.274Z"
   }
 }
