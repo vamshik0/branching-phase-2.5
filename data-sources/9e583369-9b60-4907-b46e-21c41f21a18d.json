@@ -46,7 +46,7 @@
       ]
     },
     "production": {
-      "url": "",
+      "url": "https://jsonplaceholder.typicode.com/posts/1/",
       "scopes": "read, write",
       "headers": [
         [
@@ -87,7 +87,7 @@
       ]
     },
     "staging": {
-      "url": "",
+      "url": "https://jsonplaceholder.typicode.com/posts/1/",
       "scopes": "read, write",
       "headers": [
         [
