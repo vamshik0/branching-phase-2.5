@@ -5,7 +5,7 @@
   "type": "default",
   "options": {
     "development": {
-      "url": "",
+      "url": "https://jsonplaceholder.typicode.com/posts/1/",
       "scopes": "read, write",
       "headers": [
         [
