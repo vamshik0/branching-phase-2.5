@@ -1,0 +1,59 @@
+{
+  "id": "d4bbaeb8-65a1-4d50-9928-dac31d4a9e46",
+  "name": "ThemeTitle",
+  "type": "Text",
+  "pageId": "822b9094-1239-43ac-9acc-628ab83d4277",
+  "parent": "fad90de1-dcdd-4453-81fc-777376151cb5",
+  "properties": {
+    "text": {
+      "value": "Appearance"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ef8d7cfe-13df-4550-aab7-51ee0d0c18e9",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d4bbaeb8-65a1-4d50-9928-dac31d4a9e46",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "e3b822bf-8327-4142-a7c1-c7b72670e5e6",
+      "type": "mobile",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d4bbaeb8-65a1-4d50-9928-dac31d4a9e46",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "02a8e66f-1536-4e96-894b-155df4f36c4b",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "mode",
+    "value": "light",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "c85a900f-ad6e-4394-9dd3-bc95f2cacfa4",
+  "target": "component",
+  "appVersionId": "6b09c7f6-157c-4971-8dfe-859ddd607598"
+}

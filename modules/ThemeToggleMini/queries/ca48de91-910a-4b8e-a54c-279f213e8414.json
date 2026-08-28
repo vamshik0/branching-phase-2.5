@@ -1,0 +1,12 @@
+{
+  "id": "ca48de91-910a-4b8e-a54c-279f213e8414",
+  "name": "getPalette",
+  "options": {
+    "runOnPageLoad": true,
+    "code": "const dark = (variables.mode || 'light') === 'dark';\nreturn [\n  { token: 'background', value: dark ? '#1e2226' : '#ffffff' },\n  { token: 'text',       value: dark ? '#cfd3d8' : '#1b1f24' },\n  { token: 'border',     value: dark ? '#3c434b' : '#ccd1d5' },\n];"
+  },
+  "dataSourceId": "d5b675b9-81c0-4fea-8b08-7d62cc25910b",
+  "appVersionId": "6b09c7f6-157c-4971-8dfe-859ddd607598",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

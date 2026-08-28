@@ -1,0 +1,65 @@
+{
+  "id": "c85a900f-ad6e-4394-9dd3-bc95f2cacfa4",
+  "name": "ThemeLight",
+  "type": "Button",
+  "pageId": "822b9094-1239-43ac-9acc-628ab83d4277",
+  "parent": "fad90de1-dcdd-4453-81fc-777376151cb5",
+  "properties": {
+    "text": {
+      "value": "Light"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "type": {
+      "value": "{{(variables.mode || \"light\") === \"light\" ? \"primary\" : \"outline\"}}"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "icon": {
+      "value": "IconSun"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c2af0335-a075-4b63-a38f-3f78bcdf440e",
+      "type": "desktop",
+      "top": 50,
+      "left": 1,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c85a900f-ad6e-4394-9dd3-bc95f2cacfa4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "288f1178-4a89-44f2-afd0-71b2d0b33338",
+      "type": "mobile",
+      "top": 50,
+      "left": 1,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c85a900f-ad6e-4394-9dd3-bc95f2cacfa4",
+      "dimensionUnit": "count"
+    }
+  ]
+}
