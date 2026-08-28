@@ -1,0 +1,19 @@
+{
+  "id": "ca3694b1-79dd-4cd6-9dc3-4eeb92f4a603",
+  "name": "searchCustomers",
+  "options": {
+    "mode": "sql",
+    "query": "select distinct customer_name, segment, country, city, region\n from sample_data_orders where customer_name ilike :nm order by customer_name limit 50",
+    "runOnPageLoad": true,
+    "query_params": [
+      [
+        "nm",
+        "{{\"%\" + (components.CustomerInput.value || \"\") + \"%\"}}"
+      ]
+    ]
+  },
+  "dataSourceId": "ac56bcbb-86a9-4709-87a9-36ec4c3548af",
+  "appVersionId": "8ea67d6f-9119-4b98-aa71-f7ae954f9b5c",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "3da2c386-c23d-4f14-9b40-86863cdbd5b2",
+  "name": "SearchBtn",
+  "type": "Button",
+  "pageId": "b34af9ef-408e-4ca5-870c-8da30f598208",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Search"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{queries.searchCustomers.isLoading}}"
+    },
+    "disabledState": {
+      "value": "{{queries.searchCustomers.isLoading}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "42fcc889-150b-4692-8198-cfb483e5bfad",
+      "type": "desktop",
+      "top": 145,
+      "left": 23,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3da2c386-c23d-4f14-9b40-86863cdbd5b2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2b22b95d-b34d-498f-9a05-a42875a61879",
+      "type": "mobile",
+      "top": 145,
+      "left": 23,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3da2c386-c23d-4f14-9b40-86863cdbd5b2",
+      "dimensionUnit": "count"
+    }
+  ]
+}
