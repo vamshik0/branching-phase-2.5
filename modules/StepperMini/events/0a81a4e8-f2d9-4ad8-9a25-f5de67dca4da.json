@@ -1,0 +1,14 @@
+{
+  "id": "0a81a4e8-f2d9-4ad8-9a25-f5de67dca4da",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "qty",
+    "value": "{{(variables.qty || 1) + 1}}",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "f4dea982-b2b9-4bae-8fcc-8e54f6376498",
+  "target": "component",
+  "appVersionId": "24d71bba-ecfe-4e6f-bca3-b80ce7b13613"
+}

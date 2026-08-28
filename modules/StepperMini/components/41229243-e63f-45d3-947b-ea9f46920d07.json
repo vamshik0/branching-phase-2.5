@@ -1,0 +1,62 @@
+{
+  "id": "41229243-e63f-45d3-947b-ea9f46920d07",
+  "name": "StepMinus",
+  "type": "Button",
+  "pageId": "44c46543-6e11-4db9-90dc-f3b86e25a8ae",
+  "parent": "22c3a995-576a-4fcb-9e03-27685493c7cf",
+  "properties": {
+    "text": {
+      "value": "-"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "type": {
+      "value": "outline"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "3d00b44f-6f0a-4763-9fb1-e67ee1b4b880",
+      "type": "desktop",
+      "top": 50,
+      "left": 1,
+      "width": 8,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "41229243-e63f-45d3-947b-ea9f46920d07",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "8e4e31b6-d666-42fa-85d5-78f4d1c980ba",
+      "type": "mobile",
+      "top": 50,
+      "left": 1,
+      "width": 8,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "41229243-e63f-45d3-947b-ea9f46920d07",
+      "dimensionUnit": "count"
+    }
+  ]
+}

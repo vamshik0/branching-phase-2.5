@@ -1,0 +1,59 @@
+{
+  "id": "ef4924bf-68cb-4c8e-8a66-e72d62a56f0a",
+  "name": "StepTitle",
+  "type": "Text",
+  "pageId": "44c46543-6e11-4db9-90dc-f3b86e25a8ae",
+  "parent": "22c3a995-576a-4fcb-9e03-27685493c7cf",
+  "properties": {
+    "text": {
+      "value": "Quantity"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "2806ddb2-a227-4436-a35c-3b06f131e765",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ef4924bf-68cb-4c8e-8a66-e72d62a56f0a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5e20e807-8a4f-4640-82ee-576810b606f8",
+      "type": "mobile",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ef4924bf-68cb-4c8e-8a66-e72d62a56f0a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

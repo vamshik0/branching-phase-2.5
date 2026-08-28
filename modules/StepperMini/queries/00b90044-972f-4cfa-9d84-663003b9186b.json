@@ -1,0 +1,19 @@
+{
+  "id": "00b90044-972f-4cfa-9d84-663003b9186b",
+  "name": "getTopProducts",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select product_name, round(price)::int as price from products order by price desc limit :lim",
+    "query_params": [
+      [
+        "lim",
+        "{{variables.qty || 1}}"
+      ]
+    ]
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "24d71bba-ecfe-4e6f-bca3-b80ce7b13613",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}
