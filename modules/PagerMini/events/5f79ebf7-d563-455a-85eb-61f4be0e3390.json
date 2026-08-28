@@ -1,0 +1,14 @@
+{
+  "id": "5f79ebf7-d563-455a-85eb-61f4be0e3390",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "page",
+    "value": "{{Math.max(1, (variables.page || 1) - 1)}}",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "57eb69ce-9122-478f-9354-1ef016370e7b",
+  "target": "component",
+  "appVersionId": "ff94b681-3e9e-463b-b5b5-4549649ecd3e"
+}
