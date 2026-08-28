@@ -1,0 +1,19 @@
+{
+  "id": "c82504df-4a1b-4284-82bf-cd1d4dfbb6cf",
+  "name": "getOrdersForRange",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select order_id, customer_name, round(sales)::int as sales\n              from sample_data_orders order by row_id limit :lim",
+    "query_params": [
+      [
+        "lim",
+        "{{components.RangeSelect.value === \"today\" ? 3 : components.RangeSelect.value === \"30d\" ? 10 : components.RangeSelect.value === \"qtd\" ? 15 : 5}}"
+      ]
+    ]
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "9ee1efd1-7251-49c9-ac41-0fe4c27218bc",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

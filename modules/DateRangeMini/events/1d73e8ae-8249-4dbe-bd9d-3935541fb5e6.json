@@ -1,0 +1,14 @@
+{
+  "id": "1d73e8ae-8249-4dbe-bd9d-3935541fb5e6",
+  "name": "onSelect",
+  "index": 0,
+  "event": {
+    "eventId": "onSelect",
+    "queryId": "c82504df-4a1b-4284-82bf-cd1d4dfbb6cf",
+    "actionId": "run-query",
+    "queryName": "getOrdersForRange"
+  },
+  "sourceId": "8e8f34c8-6555-4225-b229-65151f04d6c8",
+  "target": "component",
+  "appVersionId": "9ee1efd1-7251-49c9-ac41-0fe4c27218bc"
+}
