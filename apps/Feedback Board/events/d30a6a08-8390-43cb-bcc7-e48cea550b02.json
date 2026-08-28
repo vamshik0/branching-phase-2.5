@@ -1,0 +1,14 @@
+{
+  "id": "d30a6a08-8390-43cb-bcc7-e48cea550b02",
+  "name": "onDataQueryFailure",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Could not submit feedback",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "8362e21f-ed59-4b94-a533-031dd0cb6f4b",
+  "target": "data_query",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "8362e21f-ed59-4b94-a533-031dd0cb6f4b",
+  "name": "addFeedback",
+  "options": {
+    "operation": "create_row",
+    "table_id": "136b23d7-015a-40fa-aa2d-280ffb1fdc9a",
+    "runOnPageLoad": false,
+    "create_row": {
+      "0": {
+        "column": "name",
+        "value": "{{components.NameInput.value}}"
+      },
+      "1": {
+        "column": "category",
+        "value": "{{components.CategorySelect.value}}"
+      },
+      "2": {
+        "column": "rating",
+        "value": "{{Number(components.RatingSelect.value) || 3}}"
+      },
+      "3": {
+        "column": "message",
+        "value": "{{components.MessageInput.value}}"
+      }
+    }
+  },
+  "dataSourceId": "6fdf0be8-da34-4f54-a5f8-ae69c8396c03",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

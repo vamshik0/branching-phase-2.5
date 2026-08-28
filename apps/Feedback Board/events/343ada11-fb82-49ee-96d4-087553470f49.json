@@ -1,0 +1,14 @@
+{
+  "id": "343ada11-fb82-49ee-96d4-087553470f49",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Feedback submitted",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "8362e21f-ed59-4b94-a533-031dd0cb6f4b",
+  "target": "data_query",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8"
+}

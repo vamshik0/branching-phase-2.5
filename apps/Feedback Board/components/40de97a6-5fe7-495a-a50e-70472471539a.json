@@ -1,0 +1,67 @@
+{
+  "id": "40de97a6-5fe7-495a-a50e-70472471539a",
+  "name": "LegendTable",
+  "type": "Table",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "dataSourceSelector": {
+      "value": "rawJson"
+    },
+    "data": {
+      "value": "{{queries.getRatingLegend.data}}"
+    },
+    "autogenerateColumns": {
+      "value": true
+    },
+    "useDynamicColumn": {
+      "value": "{{false}}"
+    },
+    "rowsPerPage": {
+      "value": "{{5}}"
+    },
+    "displaySearchBox": {
+      "value": "{{false}}"
+    },
+    "showAddNewRowButton": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{queries.getRatingLegend.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8306b807-380c-44a7-8d29-9e83f9882d41",
+      "type": "desktop",
+      "top": 920,
+      "left": 2,
+      "width": 20,
+      "height": 250,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "40de97a6-5fe7-495a-a50e-70472471539a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "91f490c4-9f39-49fc-bbe8-4186908a4d6f",
+      "type": "mobile",
+      "top": 920,
+      "left": 2,
+      "width": 20,
+      "height": 250,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "40de97a6-5fe7-495a-a50e-70472471539a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "0eb0466f-4f4f-4cee-a2e9-43c1db649625",
+  "name": "SubmitBtn",
+  "type": "Button",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Submit feedback"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{queries.addFeedback.isLoading}}"
+    },
+    "disabledState": {
+      "value": "{{queries.addFeedback.isLoading}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "contentAlignment": {
+      "value": "center"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "62392721-8a44-4379-93a6-27c0a0d62b76",
+      "type": "desktop",
+      "top": 420,
+      "left": 2,
+      "width": 12,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "0eb0466f-4f4f-4cee-a2e9-43c1db649625",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "920e80d3-5ced-4307-950d-18860d2fb4ac",
+      "type": "mobile",
+      "top": 420,
+      "left": 2,
+      "width": 12,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "0eb0466f-4f4f-4cee-a2e9-43c1db649625",
+      "dimensionUnit": "count"
+    }
+  ]
+}

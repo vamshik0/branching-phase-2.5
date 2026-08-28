@@ -1,0 +1,12 @@
+{
+  "id": "92d5e252-b0a6-4003-acd4-77adc9086c95",
+  "name": "getRatingLegend",
+  "options": {
+    "runOnPageLoad": true,
+    "code": "return [\n  {\"rating\": 1, \"label\": \"Blocker\"},\n  {\"rating\": 2, \"label\": \"Poor\"},\n  {\"rating\": 3, \"label\": \"Okay\"},\n  {\"rating\": 4, \"label\": \"Good\"},\n  {\"rating\": 5, \"label\": \"Great\"},\n]"
+  },
+  "dataSourceId": "e979a7c8-9268-44e7-bcd6-82471cc44c47",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8",
+  "kind": "runpy",
+  "dataSourceType": "static"
+}

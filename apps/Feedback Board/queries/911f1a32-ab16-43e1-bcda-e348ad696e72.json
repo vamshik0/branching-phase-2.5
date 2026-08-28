@@ -1,0 +1,23 @@
+{
+  "id": "911f1a32-ab16-43e1-bcda-e348ad696e72",
+  "name": "workflows1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "workflowId": "3359b4b4-6d48-4a3c-bcb3-83e05d21979c",
+    "workflowVersionId": "c3a36d44-a573-4f5f-a9d8-1279e2d7185f",
+    "runOnPageLoad": true,
+    "workflowName": "DailyDigest",
+    "workflowVersionName": "v1"
+  },
+  "dataSourceId": "af6e48c1-fbb4-4670-88f2-b3eb7afa6c1b",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

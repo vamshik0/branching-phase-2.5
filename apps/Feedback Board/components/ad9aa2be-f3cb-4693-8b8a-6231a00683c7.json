@@ -1,0 +1,53 @@
+{
+  "id": "ad9aa2be-f3cb-4693-8b8a-6231a00683c7",
+  "name": "MessageInput",
+  "type": "TextArea",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Message"
+    },
+    "placeholder": {
+      "value": "What should we know?"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b046268e-9405-4698-8ceb-6a7f8c410e33",
+      "type": "desktop",
+      "top": 300,
+      "left": 2,
+      "width": 37,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ad9aa2be-f3cb-4693-8b8a-6231a00683c7",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c3020f48-4245-4689-9535-303583ebfdb6",
+      "type": "mobile",
+      "top": 300,
+      "left": 2,
+      "width": 37,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ad9aa2be-f3cb-4693-8b8a-6231a00683c7",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "f4f857a3-1f10-4dff-a5d2-4679d19c12f4",
+  "name": "Subtitle",
+  "type": "Text",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Stored in ToolJet DB - submissions persist"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 13
+    },
+    "textColor": {
+      "value": "#6b7280"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "66ea962b-9d14-4590-aef3-796a904b9a52",
+      "type": "desktop",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f4f857a3-1f10-4dff-a5d2-4679d19c12f4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c4dfb860-ca47-43d0-8139-ddfa95b7fb2f",
+      "type": "mobile",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f4f857a3-1f10-4dff-a5d2-4679d19c12f4",
+      "dimensionUnit": "count"
+    }
+  ]
+}

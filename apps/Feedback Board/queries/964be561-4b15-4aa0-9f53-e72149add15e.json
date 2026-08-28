@@ -1,0 +1,14 @@
+{
+  "id": "964be561-4b15-4aa0-9f53-e72149add15e",
+  "name": "listFeedback",
+  "options": {
+    "operation": "list_rows",
+    "table_id": "136b23d7-015a-40fa-aa2d-280ffb1fdc9a",
+    "list_rows": {},
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "6fdf0be8-da34-4f54-a5f8-ae69c8396c03",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

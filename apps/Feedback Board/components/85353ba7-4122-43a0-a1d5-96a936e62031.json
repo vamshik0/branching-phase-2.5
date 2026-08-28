@@ -1,0 +1,53 @@
+{
+  "id": "85353ba7-4122-43a0-a1d5-96a936e62031",
+  "name": "NameInput",
+  "type": "TextInput",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Your name"
+    },
+    "placeholder": {
+      "value": "e.g. Sarah Chen"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ba1dae43-8014-4937-b93e-670a0ccb670f",
+      "type": "desktop",
+      "top": 160,
+      "left": 2,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "85353ba7-4122-43a0-a1d5-96a936e62031",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "aa3d9516-1352-4fb6-ad48-3f0e1d40ee61",
+      "type": "mobile",
+      "top": 160,
+      "left": 2,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "85353ba7-4122-43a0-a1d5-96a936e62031",
+      "dimensionUnit": "count"
+    }
+  ]
+}

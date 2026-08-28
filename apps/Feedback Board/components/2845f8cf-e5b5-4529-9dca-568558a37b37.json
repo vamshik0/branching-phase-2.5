@@ -1,0 +1,59 @@
+{
+  "id": "2845f8cf-e5b5-4529-9dca-568558a37b37",
+  "name": "LegendHeading",
+  "type": "Text",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Rating legend"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7ae60b29-015b-41e9-9c90-8a829f71724a",
+      "type": "desktop",
+      "top": 880,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2845f8cf-e5b5-4529-9dca-568558a37b37",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c2f8995e-4322-4e86-849f-e94408229856",
+      "type": "mobile",
+      "top": 880,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2845f8cf-e5b5-4529-9dca-568558a37b37",
+      "dimensionUnit": "count"
+    }
+  ]
+}

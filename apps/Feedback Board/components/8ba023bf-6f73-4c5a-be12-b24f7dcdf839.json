@@ -1,0 +1,56 @@
+{
+  "id": "8ba023bf-6f73-4c5a-be12-b24f7dcdf839",
+  "name": "RatingSelect",
+  "type": "DropdownV2",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Rating"
+    },
+    "advanced": {
+      "value": "{{true}}"
+    },
+    "schema": {
+      "value": "{{[1,2,3,4,5].map(n => ({label:String(n),value:n,visible:true,default:n===3}))}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "596d29d8-33db-4ab7-86fc-868e26b4719f",
+      "type": "desktop",
+      "top": 230,
+      "left": 2,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8ba023bf-6f73-4c5a-be12-b24f7dcdf839",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2aee5fa1-d91c-4488-98c1-850b886b4b7f",
+      "type": "mobile",
+      "top": 230,
+      "left": 2,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8ba023bf-6f73-4c5a-be12-b24f7dcdf839",
+      "dimensionUnit": "count"
+    }
+  ]
+}

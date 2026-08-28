@@ -1,0 +1,15 @@
+{
+  "id": "c5010600-577e-486c-8d6d-745ca166aed4",
+  "name": "onDataQuerySuccess",
+  "index": 2,
+  "event": {
+    "text": "",
+    "eventId": "onDataQuerySuccess",
+    "actionId": "control-component",
+    "componentId": "85353ba7-4122-43a0-a1d5-96a936e62031",
+    "componentSpecificActionHandle": "setText"
+  },
+  "sourceId": "8362e21f-ed59-4b94-a533-031dd0cb6f4b",
+  "target": "data_query",
+  "appVersionId": "3b95d49c-619d-4cad-bcf8-50075dd88bc8"
+}

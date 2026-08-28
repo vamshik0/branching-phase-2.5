@@ -1,0 +1,56 @@
+{
+  "id": "84be78c8-24f9-4fe6-a548-1ce3a8889fbb",
+  "name": "CategorySelect",
+  "type": "DropdownV2",
+  "pageId": "41232487-c6d4-48b9-98fa-5eaa6eea805c",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Category"
+    },
+    "advanced": {
+      "value": "{{true}}"
+    },
+    "schema": {
+      "value": "{{[{label:\"Bug\",value:\"Bug\",visible:true,default:true},{label:\"Feature\",value:\"Feature\",visible:true,default:false},{label:\"Performance\",value:\"Performance\",visible:true,default:false}]}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f96db4fa-714f-49e3-a7dd-8dde70a2961a",
+      "type": "desktop",
+      "top": 160,
+      "left": 21,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "84be78c8-24f9-4fe6-a548-1ce3a8889fbb",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5f2372d6-af1e-466c-9c29-8a86eff7ec97",
+      "type": "mobile",
+      "top": 160,
+      "left": 21,
+      "width": 18,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "84be78c8-24f9-4fe6-a548-1ce3a8889fbb",
+      "dimensionUnit": "count"
+    }
+  ]
+}
