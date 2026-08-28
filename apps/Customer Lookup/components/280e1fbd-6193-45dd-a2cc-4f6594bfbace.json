@@ -1,0 +1,59 @@
+{
+  "id": "280e1fbd-6193-45dd-a2cc-4f6594bfbace",
+  "name": "Title",
+  "type": "Text",
+  "pageId": "f4142ed1-96fe-492d-8257-2bd536ea29b6",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Customer Lookup"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 24
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d0fffe10-15b8-464c-97e8-88c0da9c5a9b",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "280e1fbd-6193-45dd-a2cc-4f6594bfbace",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "765b2181-72ec-4596-9ac4-094729756223",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "280e1fbd-6193-45dd-a2cc-4f6594bfbace",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "77040887-f927-4188-b226-5caec89ce1a8",
+  "name": "CustomerInput",
+  "type": "TextInput",
+  "pageId": "f4142ed1-96fe-492d-8257-2bd536ea29b6",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Customer name"
+    },
+    "placeholder": {
+      "value": "e.g. Aaron"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "bf68da07-8b05-4299-8770-9035394c8ed3",
+      "type": "desktop",
+      "top": 125,
+      "left": 2,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "77040887-f927-4188-b226-5caec89ce1a8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b9ac1ca4-b4e1-4673-a90a-09d210c9dd11",
+      "type": "mobile",
+      "top": 125,
+      "left": 2,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "77040887-f927-4188-b226-5caec89ce1a8",
+      "dimensionUnit": "count"
+    }
+  ]
+}
