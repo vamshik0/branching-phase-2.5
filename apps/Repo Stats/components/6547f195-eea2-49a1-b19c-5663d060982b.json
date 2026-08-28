@@ -1,0 +1,56 @@
+{
+  "id": "6547f195-eea2-49a1-b19c-5663d060982b",
+  "name": "RepoDesc",
+  "type": "Text",
+  "pageId": "20cf71aa-7b04-4cbb-a37a-ddeb2dbe6d52",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "{{queries.getRepo.data?.description ?? \"\"}}"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 14
+    },
+    "textColor": {
+      "value": "#6b7280"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f1ecccfb-a89c-4b73-ae9e-8201a362fcd6",
+      "type": "desktop",
+      "top": 260,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6547f195-eea2-49a1-b19c-5663d060982b",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "63cf6ca3-5944-4b79-967d-50365450e061",
+      "type": "mobile",
+      "top": 260,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6547f195-eea2-49a1-b19c-5663d060982b",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4acbae82-41f4-46fe-9e92-c084739477e5",
+  "name": "getContributors",
+  "options": {
+    "method": "get",
+    "url": "https://api.github.com/repos/ToolJet/ToolJet/contributors",
+    "headers": [],
+    "url_params": [
+      [
+        "per_page",
+        "10"
+      ]
+    ],
+    "body_toggle": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "f146b4e6-36b9-4ae3-8c9a-fbc5f7b723ee",
+  "appVersionId": "9aa70f10-3422-4095-aa2b-0547552f8d3d",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "9d2da9bb-e9bc-4fbb-8fd7-fa5e143c9d9a",
+  "name": "StatStars",
+  "type": "Statistics",
+  "pageId": "20cf71aa-7b04-4cbb-a37a-ddeb2dbe6d52",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Stars"
+    },
+    "primaryValue": {
+      "value": "{{queries.getRepo.data?.stargazers_count ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconStar"
+    },
+    "loadingState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a4e345af-273a-4712-a98a-bb5578650b11",
+      "type": "desktop",
+      "top": 120,
+      "left": 2,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9d2da9bb-e9bc-4fbb-8fd7-fa5e143c9d9a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6bf58860-4c55-4c8d-871c-a2bb2ddd3e48",
+      "type": "mobile",
+      "top": 120,
+      "left": 2,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9d2da9bb-e9bc-4fbb-8fd7-fa5e143c9d9a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

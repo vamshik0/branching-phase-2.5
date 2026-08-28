@@ -1,0 +1,58 @@
+{
+  "id": "dbac8d76-13c0-4bb0-9acc-b715e8359edf",
+  "name": "StatForks",
+  "type": "Statistics",
+  "pageId": "20cf71aa-7b04-4cbb-a37a-ddeb2dbe6d52",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Forks"
+    },
+    "primaryValue": {
+      "value": "{{queries.getRepo.data?.forks_count ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconGitFork"
+    },
+    "loadingState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "59fdb591-08dc-46f2-a0cd-9365272fd921",
+      "type": "desktop",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dbac8d76-13c0-4bb0-9acc-b715e8359edf",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3b7deff9-4bbf-4dd8-b51d-1ebfa45657f5",
+      "type": "mobile",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dbac8d76-13c0-4bb0-9acc-b715e8359edf",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "55e101d9-87fb-4df5-adc8-f6ae663bdf5d",
+  "name": "Subtitle",
+  "type": "Text",
+  "pageId": "20cf71aa-7b04-4cbb-a37a-ddeb2dbe6d52",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Live from the GitHub REST API"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 14
+    },
+    "textColor": {
+      "value": "#6b7280"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "4e7324f4-dff2-449e-9057-6ea2251d1258",
+      "type": "desktop",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "55e101d9-87fb-4df5-adc8-f6ae663bdf5d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "acafadf4-d955-476f-af13-fa239fc50e83",
+      "type": "mobile",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "55e101d9-87fb-4df5-adc8-f6ae663bdf5d",
+      "dimensionUnit": "count"
+    }
+  ]
+}
