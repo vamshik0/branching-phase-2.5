@@ -1,0 +1,13 @@
+{
+  "id": "48994f34-fa3c-4926-8ee4-da76f1d85b24",
+  "name": "getRecentOrders",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select order_id, order_date, customer_name, category, sales, profit\n         from sample_data_orders order by order_date desc limit 50"
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "21e21781-9585-40e0-b5f2-031b706fafe1",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

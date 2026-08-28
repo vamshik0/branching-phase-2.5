@@ -1,0 +1,58 @@
+{
+  "id": "55f8688c-8d29-4835-b3b8-dbb6094dcb9f",
+  "name": "StatSales",
+  "type": "Statistics",
+  "pageId": "8b4f7c53-fc20-4384-9f52-ff084876a52a",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Total sales"
+    },
+    "primaryValue": {
+      "value": "{{queries.getOrderStats.data?.[0]?.total_sales ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconCurrencyDollar"
+    },
+    "loadingState": {
+      "value": "{{queries.getOrderStats.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "60a74f34-c421-4c2e-bfeb-3002c1824f40",
+      "type": "desktop",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "55f8688c-8d29-4835-b3b8-dbb6094dcb9f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "4ba66ddf-029e-491b-98dd-727bf5b1154e",
+      "type": "mobile",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "55f8688c-8d29-4835-b3b8-dbb6094dcb9f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

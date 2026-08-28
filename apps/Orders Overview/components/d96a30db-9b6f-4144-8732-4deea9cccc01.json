@@ -1,0 +1,58 @@
+{
+  "id": "d96a30db-9b6f-4144-8732-4deea9cccc01",
+  "name": "StatOrders",
+  "type": "Statistics",
+  "pageId": "8b4f7c53-fc20-4384-9f52-ff084876a52a",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Orders"
+    },
+    "primaryValue": {
+      "value": "{{queries.getOrderStats.data?.[0]?.orders ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconShoppingCart"
+    },
+    "loadingState": {
+      "value": "{{queries.getOrderStats.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5d119172-678e-4f29-bcbe-7fba3edcf437",
+      "type": "desktop",
+      "top": 120,
+      "left": 2,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d96a30db-9b6f-4144-8732-4deea9cccc01",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "8ab742b2-940e-424a-9c17-fb495a5a835f",
+      "type": "mobile",
+      "top": 120,
+      "left": 2,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d96a30db-9b6f-4144-8732-4deea9cccc01",
+      "dimensionUnit": "count"
+    }
+  ]
+}

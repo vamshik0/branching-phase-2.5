@@ -1,0 +1,13 @@
+{
+  "id": "5f0fba40-1089-4342-98f0-774b61527f25",
+  "name": "getOrderStats",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select count(*)::int as orders, round(sum(sales))::int as total_sales, round(avg(profit))::int as avg_profit\n         from sample_data_orders"
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "21e21781-9585-40e0-b5f2-031b706fafe1",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

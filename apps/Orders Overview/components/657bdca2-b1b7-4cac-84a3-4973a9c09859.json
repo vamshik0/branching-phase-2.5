@@ -1,0 +1,56 @@
+{
+  "id": "657bdca2-b1b7-4cac-84a3-4973a9c09859",
+  "name": "Subtitle",
+  "type": "Text",
+  "pageId": "8b4f7c53-fc20-4384-9f52-ff084876a52a",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Sales performance at a glance"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 13
+    },
+    "textColor": {
+      "value": "#6b7280"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f597e2f5-2c79-4ae4-9479-d9cd8c481bd3",
+      "type": "desktop",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "657bdca2-b1b7-4cac-84a3-4973a9c09859",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "77b03c48-6eba-4761-a95b-6c78b25f3f91",
+      "type": "mobile",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "657bdca2-b1b7-4cac-84a3-4973a9c09859",
+      "dimensionUnit": "count"
+    }
+  ]
+}
