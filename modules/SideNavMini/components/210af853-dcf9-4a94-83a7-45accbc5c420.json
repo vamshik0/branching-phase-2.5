@@ -1,0 +1,59 @@
+{
+  "id": "210af853-dcf9-4a94-83a7-45accbc5c420",
+  "name": "NavTitle",
+  "type": "Text",
+  "pageId": "e9961568-d399-42b3-8e25-16beedd6bb19",
+  "parent": "f54d62c1-e9df-4fd3-aaf3-d4e8cc1d123e",
+  "properties": {
+    "text": {
+      "value": "Departments"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1797fb7a-f79e-453d-9d60-ebc2a0e24a6e",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "210af853-dcf9-4a94-83a7-45accbc5c420",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "755e76f1-dfbd-4062-ad8d-82f43273d42e",
+      "type": "mobile",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "210af853-dcf9-4a94-83a7-45accbc5c420",
+      "dimensionUnit": "count"
+    }
+  ]
+}

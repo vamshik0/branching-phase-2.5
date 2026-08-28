@@ -1,0 +1,13 @@
+{
+  "id": "b8d83ab7-026e-4fc0-b47b-35b181b08ab8",
+  "name": "getNavItems",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select department as item, count(*)::int as n from employees\n              where department is not null group by 1 order by 1 limit 3"
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "80aaf046-d84f-46d9-b093-460872d65d6b",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

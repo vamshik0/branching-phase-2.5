@@ -1,0 +1,65 @@
+{
+  "id": "cbabb075-060a-409f-aa7c-5e3f62e990b1",
+  "name": "NavData",
+  "type": "Button",
+  "pageId": "e9961568-d399-42b3-8e25-16beedd6bb19",
+  "parent": "f54d62c1-e9df-4fd3-aaf3-d4e8cc1d123e",
+  "properties": {
+    "text": {
+      "value": "{{queries.getNavItems.data?.[1]?.item ?? \"-\"}} ({{queries.getNavItems.data?.[1]?.n ?? 0}})"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "type": {
+      "value": "{{variables.activeItem === queries.getNavItems.data?.[1]?.item ? \"primary\" : \"outline\"}}"
+    },
+    "contentAlignment": {
+      "value": "left"
+    },
+    "icon": {
+      "value": "IconDatabase"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "87e02a4b-c8a2-43bd-b3e1-370d2bf5f34c",
+      "type": "desktop",
+      "top": 100,
+      "left": 1,
+      "width": 41,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "cbabb075-060a-409f-aa7c-5e3f62e990b1",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0aaf9f8b-e1ea-414f-8341-e76d219e1a41",
+      "type": "mobile",
+      "top": 100,
+      "left": 1,
+      "width": 41,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "cbabb075-060a-409f-aa7c-5e3f62e990b1",
+      "dimensionUnit": "count"
+    }
+  ]
+}

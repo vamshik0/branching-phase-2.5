@@ -1,0 +1,14 @@
+{
+  "id": "20779e81-3330-458f-b277-cec670aa6a81",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "activeItem",
+    "value": "{{queries.getNavItems.data?.[1]?.item}}",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "cbabb075-060a-409f-aa7c-5e3f62e990b1",
+  "target": "component",
+  "appVersionId": "80aaf046-d84f-46d9-b093-460872d65d6b"
+}
