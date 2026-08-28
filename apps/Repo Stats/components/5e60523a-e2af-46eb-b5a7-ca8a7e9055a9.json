@@ -1,0 +1,62 @@
+{
+  "id": "5e60523a-e2af-46eb-b5a7-ca8a7e9055a9",
+  "name": "RefreshBtn",
+  "type": "Button",
+  "pageId": "d32de7b1-28b7-47c8-9882-50e180fd203f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Refresh"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    },
+    "disabledState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "contentAlignment": {
+      "value": "center"
+    },
+    "icon": {
+      "value": "IconRefresh"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "db1a711b-73e9-4bc8-9139-77993ffc34b2",
+      "type": "desktop",
+      "top": 700,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5e60523a-e2af-46eb-b5a7-ca8a7e9055a9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "cb1a5af9-8154-46dc-a2d4-d2e3e8879dda",
+      "type": "mobile",
+      "top": 700,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5e60523a-e2af-46eb-b5a7-ca8a7e9055a9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

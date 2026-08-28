@@ -1,0 +1,14 @@
+{
+  "id": "2ab66110-4449-4007-b736-57e7b8799b54",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "queryId": "de5d52dd-8217-4695-8966-c110f0f00308",
+    "actionId": "run-query",
+    "queryName": "getRepo"
+  },
+  "sourceId": "5e60523a-e2af-46eb-b5a7-ca8a7e9055a9",
+  "target": "component",
+  "appVersionId": "e8c09ccf-55a2-434a-b79f-ba2c3fa039cb"
+}

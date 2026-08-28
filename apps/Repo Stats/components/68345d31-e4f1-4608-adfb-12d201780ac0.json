@@ -1,0 +1,58 @@
+{
+  "id": "68345d31-e4f1-4608-adfb-12d201780ac0",
+  "name": "StatForks",
+  "type": "Statistics",
+  "pageId": "d32de7b1-28b7-47c8-9882-50e180fd203f",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Forks"
+    },
+    "primaryValue": {
+      "value": "{{queries.getRepo.data?.forks_count ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconGitFork"
+    },
+    "loadingState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "424ef7c8-5738-4440-87f7-197005cc4e95",
+      "type": "desktop",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "68345d31-e4f1-4608-adfb-12d201780ac0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c2586565-a960-452e-860d-700e746b6258",
+      "type": "mobile",
+      "top": 120,
+      "left": 15,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "68345d31-e4f1-4608-adfb-12d201780ac0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

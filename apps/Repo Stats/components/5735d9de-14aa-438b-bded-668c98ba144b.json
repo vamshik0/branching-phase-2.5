@@ -1,0 +1,58 @@
+{
+  "id": "5735d9de-14aa-438b-bded-668c98ba144b",
+  "name": "StatIssues",
+  "type": "Statistics",
+  "pageId": "d32de7b1-28b7-47c8-9882-50e180fd203f",
+  "parent": null,
+  "properties": {
+    "primaryValueLabel": {
+      "value": "Open issues"
+    },
+    "primaryValue": {
+      "value": "{{queries.getRepo.data?.open_issues_count ?? 0}}"
+    },
+    "hideSecondary": {
+      "value": true
+    },
+    "icon": {
+      "value": "IconAlertCircle"
+    },
+    "loadingState": {
+      "value": "{{queries.getRepo.isLoading}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "0ed46797-0369-49c0-b0ac-02b8ee588d8f",
+      "type": "desktop",
+      "top": 120,
+      "left": 28,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5735d9de-14aa-438b-bded-668c98ba144b",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "829be38b-7d6b-4ba1-9e47-9d92e04015b1",
+      "type": "mobile",
+      "top": 120,
+      "left": 28,
+      "width": 12,
+      "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5735d9de-14aa-438b-bded-668c98ba144b",
+      "dimensionUnit": "count"
+    }
+  ]
+}

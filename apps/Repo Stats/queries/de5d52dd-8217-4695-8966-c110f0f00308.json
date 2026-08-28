@@ -1,0 +1,16 @@
+{
+  "id": "de5d52dd-8217-4695-8966-c110f0f00308",
+  "name": "getRepo",
+  "options": {
+    "method": "get",
+    "url": "https://api.github.com/repos/ToolJet/ToolJet",
+    "headers": [],
+    "url_params": [],
+    "body_toggle": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "88364424-d52a-45f0-8397-46f166d6808c",
+  "appVersionId": "e8c09ccf-55a2-434a-b79f-ba2c3fa039cb",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

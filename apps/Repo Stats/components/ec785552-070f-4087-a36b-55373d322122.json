@@ -1,0 +1,56 @@
+{
+  "id": "ec785552-070f-4087-a36b-55373d322122",
+  "name": "Subtitle",
+  "type": "Text",
+  "pageId": "d32de7b1-28b7-47c8-9882-50e180fd203f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Live from the GitHub REST API"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 13
+    },
+    "textColor": {
+      "value": "#6b7280"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b3d55eef-d745-429b-9e01-ed4298e80ed1",
+      "type": "desktop",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ec785552-070f-4087-a36b-55373d322122",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0cf14331-03e6-42ce-9321-c126f56f3587",
+      "type": "mobile",
+      "top": 76,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ec785552-070f-4087-a36b-55373d322122",
+      "dimensionUnit": "count"
+    }
+  ]
+}

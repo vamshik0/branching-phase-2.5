@@ -1,0 +1,14 @@
+{
+  "id": "3a1eabe6-a28e-4cb3-8c9b-2c8a64cad789",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Workflow-success",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "c15ab109-00fe-48f9-a09b-6ab08af44b96",
+  "target": "data_query",
+  "appVersionId": "e8c09ccf-55a2-434a-b79f-ba2c3fa039cb"
+}

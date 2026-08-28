@@ -1,0 +1,59 @@
+{
+  "id": "03035a04-4aba-426d-9181-b9f915b458a9",
+  "name": "Title",
+  "type": "Text",
+  "pageId": "d32de7b1-28b7-47c8-9882-50e180fd203f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Repo Stats"
+    },
+    "textFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 24
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#111827"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "bafcc76a-a00a-4df5-9982-a3b2dc238f9e",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "03035a04-4aba-426d-9181-b9f915b458a9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b6e6e9d6-fcc9-4036-a8ae-b73a3c65e075",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "03035a04-4aba-426d-9181-b9f915b458a9",
+      "dimensionUnit": "count"
+    }
+  ]
+}
