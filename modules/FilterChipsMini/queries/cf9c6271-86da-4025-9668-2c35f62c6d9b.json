@@ -1,0 +1,13 @@
+{
+  "id": "cf9c6271-86da-4025-9668-2c35f62c6d9b",
+  "name": "getStatusCounts",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select status, count(*)::int as n from products where status is not null\n              group by 1 order by 2 desc limit 3"
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "80d21883-053e-4bd2-99aa-49d352c2154a",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

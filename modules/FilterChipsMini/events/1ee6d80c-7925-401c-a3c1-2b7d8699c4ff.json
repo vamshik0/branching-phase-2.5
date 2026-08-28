@@ -1,0 +1,14 @@
+{
+  "id": "1ee6d80c-7925-401c-a3c1-2b7d8699c4ff",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "filter",
+    "value": "{{queries.getStatusCounts.data?.[0]?.status}}",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "c3a0097a-6ea9-4a5d-8e92-6c5418cef8f8",
+  "target": "component",
+  "appVersionId": "80d21883-053e-4bd2-99aa-49d352c2154a"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "54392871-ea37-4878-b79e-f7f44dc3e73a",
+  "name": "ChipArchived",
+  "type": "Button",
+  "pageId": "90f25b19-0a98-43ba-9519-f8965bcb3631",
+  "parent": "93ea1f1f-1afd-4a7b-b108-6ebbcc81dcb6",
+  "properties": {
+    "text": {
+      "value": "{{queries.getStatusCounts.data?.[2]?.status ?? \"-\"}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "type": {
+      "value": "{{variables.filter === queries.getStatusCounts.data?.[2]?.status ? \"primary\" : \"outline\"}}"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "borderRadius": {
+      "value": "6"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "3b7fb376-c8f9-43a4-909e-8fc8f5b8cb6e",
+      "type": "desktop",
+      "top": 50,
+      "left": 28,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "54392871-ea37-4878-b79e-f7f44dc3e73a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "e8351e12-80a0-4f48-ad9d-d37f2cace8dd",
+      "type": "mobile",
+      "top": 50,
+      "left": 28,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "54392871-ea37-4878-b79e-f7f44dc3e73a",
+      "dimensionUnit": "count"
+    }
+  ]
+}
