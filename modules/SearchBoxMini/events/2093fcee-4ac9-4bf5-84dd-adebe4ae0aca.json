@@ -1,0 +1,14 @@
+{
+  "id": "2093fcee-4ac9-4bf5-84dd-adebe4ae0aca",
+  "name": "onChange",
+  "index": 0,
+  "event": {
+    "eventId": "onChange",
+    "queryId": "d1fc0dec-ecfb-4567-9506-766e1e48e44f",
+    "actionId": "run-query",
+    "queryName": "searchEmployees"
+  },
+  "sourceId": "2cb8911f-43bc-426c-97a3-c08f5a1bcb77",
+  "target": "component",
+  "appVersionId": "e83d534b-0357-4502-bf4b-bb5cfe031d5a"
+}

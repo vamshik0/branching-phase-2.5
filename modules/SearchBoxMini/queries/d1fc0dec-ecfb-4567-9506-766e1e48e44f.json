@@ -1,0 +1,19 @@
+{
+  "id": "d1fc0dec-ecfb-4567-9506-766e1e48e44f",
+  "name": "searchEmployees",
+  "options": {
+    "mode": "sql",
+    "runOnPageLoad": true,
+    "query": "select first_name, last_name, department from employees\n              where first_name ilike :nm or last_name ilike :nm order by first_name limit 5",
+    "query_params": [
+      [
+        "nm",
+        "{{\"%\" + (components.SearchField.value || \"\") + \"%\"}}"
+      ]
+    ]
+  },
+  "dataSourceId": "19dfed1e-2296-4b98-a9d4-1d70552b6b31",
+  "appVersionId": "e83d534b-0357-4502-bf4b-bb5cfe031d5a",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

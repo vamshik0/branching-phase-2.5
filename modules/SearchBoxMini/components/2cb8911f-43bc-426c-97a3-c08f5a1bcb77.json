@@ -1,0 +1,53 @@
+{
+  "id": "2cb8911f-43bc-426c-97a3-c08f5a1bcb77",
+  "name": "SearchField",
+  "type": "TextInput",
+  "pageId": "6b0d3d28-cbe1-4c7d-8bd1-0c3f10b73958",
+  "parent": "4a38ce0a-142d-4fa0-af54-b4896019d92e",
+  "properties": {
+    "label": {
+      "value": "Keyword"
+    },
+    "placeholder": {
+      "value": "Type to search"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "fa2dd224-7f68-4a21-bc74-ca536e4f3368",
+      "type": "desktop",
+      "top": 50,
+      "left": 1,
+      "width": 41,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2cb8911f-43bc-426c-97a3-c08f5a1bcb77",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "4d8d11ca-cd9c-40c0-a4a0-028dca8e60ad",
+      "type": "mobile",
+      "top": 50,
+      "left": 1,
+      "width": 41,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2cb8911f-43bc-426c-97a3-c08f5a1bcb77",
+      "dimensionUnit": "count"
+    }
+  ]
+}
